@@ -1,0 +1,79 @@
+body {
+    background:linear-gradient(to right , #73C8A9 , #373b44) red;
+}
+* {
+    margin: 0;
+    padding: 0;
+    margin:3rem 0 ;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+h1 {
+    padding: 1rem;
+    cursor: pointer;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    text-shadow: 0.1rem 0.1rem 0.2rem #ddd,-0.1rem -0.1rem 0.2rem #ddd;
+    transition: all 0.5s;
+}
+h1:hover {
+    border-bottom: 0.2rem yellow solid;
+    box-shadow:0 0.1rem 0.4rem yellow ;
+}
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+input {
+    width: 30%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    letter-spacing: 0.2rem;
+    transition: all 0.2s;
+    outline: none;
+    color:#73C8A9;
+    
+}
+input::placeholder {
+    color:#73C8A9;
+    
+}
+input:focus {
+    border-bottom: 0.2rem yellow solid;
+    box-shadow:0 0.1rem 0.4rem yellow ;
+}
+button {
+    width: 10%;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    box-shadow: 0.1rem 0.1rem 0.2rem #ddd,-0.1rem -0.1rem 0.2rem #ddd;
+    color:#73C8A9;
+    background-color: #373b44;
+    cursor: pointer;
+    transition: transform 0.5s;
+    letter-spacing: 0.2rem;
+}
+button:hover {
+    transform: translateY(-0.5rem);
+}
+.images-container img {
+    margin: 3rem;
+}
